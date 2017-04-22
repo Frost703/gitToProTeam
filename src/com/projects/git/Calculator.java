@@ -1,3 +1,5 @@
+package com.projects.git;
+
 /**
  * Created by O'Neill on 4/22/2017.
  */
@@ -8,6 +10,9 @@ public class Calculator {
 
     public double multiply(double num1, double num2) {
         return num1 * num2;
+    }
+    public double minus(double num1, double num2) {
+        return num1 - num2;
     }
 
     public double divide(double num1, double num2) {
